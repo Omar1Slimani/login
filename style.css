@@ -1,0 +1,52 @@
+/* إعدادات عامة */
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #1e3c72, #2a5298); /* خلفية متدرجة */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+/* المربع الشفاف */
+.container {
+    background: rgba(255, 255, 255, 0.2); /* خلفية شفافة */
+    border: 2px solid rgba(255, 255, 255, 0.3); /* إطار شفاف */
+    padding: 30px;
+    border-radius: 20px; /* الحواف مقصوصة */
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* ظل للمربع */
+    width: 300px;
+    height: 300px;
+}
+
+/* العنوان */
+h1 {
+    margin-bottom: 40px;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+/* الأزرار */
+.button {
+    display: block;
+    margin-top: 25px; /* مسافة بين الأزرار */
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.5); /* خلفية زرقاء شفافة */
+    border-radius: 10px; /* الحواف مقصوصة للأزرار */
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    transition: all 0.3s ease-in-out;
+}
+
+/* تأثير عند التمرير */
+.button:hover {
+    background-color: rgba(42, 82, 152, 1); /* لون عند التمرير */
+    transform: scale(1.1); /* تكبير بسيط */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
